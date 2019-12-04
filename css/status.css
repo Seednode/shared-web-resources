@@ -14,11 +14,14 @@ html {
   blockquote {
     font-size: 1.05em;
     background-color: #cdd19a;
-    padding: 2rem 4rem;
+    padding: 1rem 4rem;
     line-height: 1.1;
-    margin: 1.5rem auto;
-    width: 70%;
-    max-width: 15rem;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
     box-shadow: 0 0 0 .25em #656565;
     border-radius: 18px;
   }
@@ -30,28 +33,25 @@ html {
   }
   p {
     font-size: 24px;
-    line-height: 2;
+    line-height: 1.75;
     text-align: center;
   }
   h1 {
+    font-size: 3rem;
     text-align: center;
   }
   hr {
     text-align: center;
     margin: 1.5rem auto 1.5rem auto;
     border-top: 3px solid #454545;
-    width: 95%;
-    max-width: 30rem;
   }
   .center {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    height: 95%;
-    max-height: 30rem;
   }
   @media screen and (max-width: 1080px) {
     blockquote {
-      max-width: 50rem;
+      max-width: 40rem;
     }
   }
