@@ -14,8 +14,8 @@ html {
   blockquote {
     font-size: 1.05em;
     background-color: #cdd19a;
-    padding: 1rem 4rem;
-    line-height: 1.1;
+    padding: 0rem 4rem;
+    line-height: .8;
     margin: 0;
     position: absolute;
     top: 50%;
@@ -33,7 +33,7 @@ html {
   }
   p {
     font-size: 24px;
-    line-height: 1.75;
+    line-height: 1.5;
     text-align: center;
   }
   h1 {
@@ -42,16 +42,22 @@ html {
   }
   hr {
     text-align: center;
-    margin: 1.5rem auto 1.5rem auto;
+    margin: 1.5rem 0 1.5rem 0;
     border-top: 3px solid #454545;
   }
   .center {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    height: 95%;
+    max-height: 35rem;
   }
-  @media screen and (max-width: 1080px) {
+  @media screen and (min-height: 1280px) {
     blockquote {
+      width: 95%;
       max-width: 40rem;
+    }
+    p {
+      font-size: 26px;
     }
   }
