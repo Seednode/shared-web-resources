@@ -12,10 +12,10 @@ html {
     color: #454545;
   }
   blockquote {
-    font-size: 1.05em;
+    font-size: 1em;
     background-color: #cdd19a;
-    padding: 0rem 4rem;
-    line-height: .8;
+    padding: 1rem 4rem;
+    line-height: 0.8;
     margin: 0;
     position: absolute;
     top: 50%;
@@ -26,18 +26,18 @@ html {
     border-radius: 18px;
   }
   a {
-    color: inherit;
+    color: inherit;o
   }
   a:hover {
     color: #db8f3d;
   }
   p {
-    font-size: 24px;
+    font-size: 22px;
     line-height: 1.5;
     text-align: center;
   }
   h1 {
-    font-size: 3rem;
+    font-size: 2rem;
     text-align: center;
   }
   hr {
@@ -56,6 +56,9 @@ html {
     blockquote {
       width: 95%;
       max-width: 40rem;
+    }
+    h1 {
+      font-size: 3rem;
     }
     p {
       font-size: 26px;
