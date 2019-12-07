@@ -18,48 +18,44 @@
     background-color: #92aa83;
     background-size:100px 100px, 100px 100px, 50px 50px, 50px 50px;
   }
-  body {
-    font-family: Open Sans;
-    color: #454545
-  }
-  blockquote {
-    background-color: #cdd19a;
-    padding: 1rem;
-    line-height: 1;
-    width: 95%;
-    max-width: 35rem;
-    margin: 32px auto;
-    box-shadow: 0 0 0 .25em #656565;
-    border-radius: 18px;
-  }
   a {
     color: inherit;
   }
   a:hover {
     color: #db8f3d;
   }
+  body {
+    color: #454545;
+    font-family: Open Sans;
+  }
+  blockquote {
+    background-color: #cdd19a;
+    border-radius: 18px;
+    box-shadow: 0 0 0 .25rem #656565;
+    line-height: 1;
+    margin: 32px auto;
+    max-width: 35rem;
+    padding: 1rem;
+    width: 95%;
+  }
+  hr {
+    border-top: 3px solid #454545;
+    margin: 1rem 0;
+  }
   p {
     font-size: 1.1rem;
     text-align: center;
   }
-  ul {
-    font-size: 1rem;
-  }
-  hr {
-    margin: 1rem 0;
-    border-top: 3px solid #454545;
-  }
 
   /* For desktops and other wider screens */
-  @media only screen and (min-width: 1080px) {
+  @media only screen and (min-width: 960px) {
     blockquote {
+      font-size: 1.6rem;
+      max-width: 45rem;
       padding: 1.25rem;
     }
     p {
-      font-size: 1.5rem;
-    }
-    ul {
-      font-size: 1.4rem;
+      font-size: 1.8rem;
     }
   }
 </style>
